@@ -1,0 +1,36 @@
+{
+  "name": "gulp-filter-since",
+  "version": "0.1.0",
+  "description": "A gulp plugin that provides Gulp 4.x 'since' filtering to Gulp 3.x+ tasks.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:npetruzzelli/gulp-filter-since.git"
+  },
+  "keywords": [],
+  "author": "Nick Petruzzelli <code.npetruzzelli@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "through2": "^2.0.0",
+    "through2-filter": "^2.0.0",
+    "value-or-function": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.5.2"
+  }
+}
