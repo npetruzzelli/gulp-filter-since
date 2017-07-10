@@ -4,8 +4,6 @@ A gulp plugin that provides Gulp 4.x `since` filtering to Gulp 3.x+ tasks.
 
 Since gulp-filter-since is a plugin, it may be used with both `gulp.src()` and the `gulp-add-src` plugin. It was also developed as a companion to [**gulp3-last-run**](https://github.com/npetruzzelli/gulp3-last-run).
 
-https://github.com/gulpjs/gulp/blob/175d96a0d965d4b7c371353ee87bed43d6e450c9/docs/API.md#optionssince
-
 ## Why?
 
 Why not use [**vinyl-filter-since**](https://github.com/tunnckocore/vinyl-filter-since)?
