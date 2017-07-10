@@ -4,6 +4,7 @@ A gulp plugin that provides Gulp 4.x `since` filtering to Gulp 3.x+ tasks.
 
 Since gulp-filter-since is a plugin, it may be used with both `gulp.src()` and the `gulp-add-src` plugin. It was also developed as a companion to [**gulp3-last-run**](https://github.com/npetruzzelli/gulp3-last-run).
 
+
 ## Why?
 
 Why not use [**vinyl-filter-since**](https://github.com/tunnckocore/vinyl-filter-since)?
@@ -60,14 +61,3 @@ Type: `Date` or `Number`
 Setting this to a Date or a time stamp will discard any files that have not been modified since the time specified.
 
 If this is `null` or `undefined` then no filtering will take place and all files will simply be passed through.
-
-## TODO:
-
-Better meet plugin guidelines:
-
-0.  "Your plugin shouldn't do things that other plugins are responsible for"  
-    _this is a grey area thanks to the similar vinyl fs plugin_
-1.  Test Suite
-2.  Emit errors (instead of throwing them)  
-    _vinyl-fs may throw errors, but it is not bound by guidelines for plugins._
-3.  prefix errors with the name of the plugin
